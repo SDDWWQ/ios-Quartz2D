@@ -69,7 +69,7 @@
     CGContextAddPath(ctx3, path3.CGPath);//第二个参数是C语言中的CGPath类型，所以要将OC的path转换为C语言的path，可以通过.CGPath的方式转化
     //4.渲染
     CGContextStrokePath(ctx3);
-    
+
     //方式4：C语言+OC
     //1.获取图形上下文
     CGContextRef ctx4=UIGraphicsGetCurrentContext();

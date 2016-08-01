@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>图片裁剪.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>绘制图片.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>绘制文字.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +38,51 @@
 			<true/>
 		</dict>
 		<key>7E627EAE1D4AEBDA00435524</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF5970C1D4F6FFC009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597241D4F6FFC009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF5972F1D4F6FFC009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597461D4F7C6A009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF5975E1D4F7C6A009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597691D4F7C6A009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597801D4F869E009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597981D4F869E009E1E5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF597A31D4F869E009E1E5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA462C51D59DF2000EBE27C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA462C41D59DF2000EBE27C /* main.m */; };
+		7EA462C81D59DF2000EBE27C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA462C71D59DF2000EBE27C /* AppDelegate.m */; };
+		7EA462CB1D59DF2000EBE27C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA462CA1D59DF2000EBE27C /* ViewController.m */; };
+		7EA462CE1D59DF2000EBE27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA462CC1D59DF2000EBE27C /* Main.storyboard */; };
+		7EA462D31D59DF2000EBE27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA462D11D59DF2000EBE27C /* LaunchScreen.storyboard */; };
+		7EA462DE1D59DF2000EBE27C /* _7_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA462DD1D59DF2000EBE27C /* _7_____Tests.m */; };
+		7EA462E91D59DF2000EBE27C /* _7_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA462E81D59DF2000EBE27C /* _7_____UITests.m */; };
+		7EA462F71D59E65400EBE27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA462F61D59E65400EBE27C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EA462DA1D59DF2000EBE27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA462B81D59DF2000EBE27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA462BF1D59DF2000EBE27C;
+			remoteInfo = "47-添加水印";
+		};
+		7EA462E51D59DF2000EBE27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA462B81D59DF2000EBE27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA462BF1D59DF2000EBE27C;
+			remoteInfo = "47-添加水印";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EA462C01D59DF2000EBE27C /* 47-添加水印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "47-添加水印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA462C41D59DF2000EBE27C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA462C61D59DF2000EBE27C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EA462C71D59DF2000EBE27C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EA462C91D59DF2000EBE27C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EA462CA1D59DF2000EBE27C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EA462CD1D59DF2000EBE27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA462D21D59DF2000EBE27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA462D41D59DF2000EBE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA462D91D59DF2000EBE27C /* 47-添加水印Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "47-添加水印Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA462DD1D59DF2000EBE27C /* _7_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____Tests.m"; sourceTree = "<group>"; };
+		7EA462DF1D59DF2000EBE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA462E41D59DF2000EBE27C /* 47-添加水印UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "47-添加水印UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA462E81D59DF2000EBE27C /* _7_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_____UITests.m"; sourceTree = "<group>"; };
+		7EA462EA1D59DF2000EBE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA462F61D59E65400EBE27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA462BD1D59DF2000EBE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462D61D59DF2000EBE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462E11D59DF2000EBE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA462B71D59DF2000EBE27C = {
+			isa = PBXGroup;
+			children = (
+				7EA462C21D59DF2000EBE27C /* 47-添加水印 */,
+				7EA462DC1D59DF2000EBE27C /* 47-添加水印Tests */,
+				7EA462E71D59DF2000EBE27C /* 47-添加水印UITests */,
+				7EA462C11D59DF2000EBE27C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA462C11D59DF2000EBE27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA462C01D59DF2000EBE27C /* 47-添加水印.app */,
+				7EA462D91D59DF2000EBE27C /* 47-添加水印Tests.xctest */,
+				7EA462E41D59DF2000EBE27C /* 47-添加水印UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA462C21D59DF2000EBE27C /* 47-添加水印 */ = {
+			isa = PBXGroup;
+			children = (
+				7EA462C61D59DF2000EBE27C /* AppDelegate.h */,
+				7EA462C71D59DF2000EBE27C /* AppDelegate.m */,
+				7EA462C91D59DF2000EBE27C /* ViewController.h */,
+				7EA462CA1D59DF2000EBE27C /* ViewController.m */,
+				7EA462F61D59E65400EBE27C /* Assets.xcassets */,
+				7EA462CC1D59DF2000EBE27C /* Main.storyboard */,
+				7EA462D11D59DF2000EBE27C /* LaunchScreen.storyboard */,
+				7EA462D41D59DF2000EBE27C /* Info.plist */,
+				7EA462C31D59DF2000EBE27C /* Supporting Files */,
+			);
+			path = "47-添加水印";
+			sourceTree = "<group>";
+		};
+		7EA462C31D59DF2000EBE27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA462C41D59DF2000EBE27C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA462DC1D59DF2000EBE27C /* 47-添加水印Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA462DD1D59DF2000EBE27C /* _7_____Tests.m */,
+				7EA462DF1D59DF2000EBE27C /* Info.plist */,
+			);
+			path = "47-添加水印Tests";
+			sourceTree = "<group>";
+		};
+		7EA462E71D59DF2000EBE27C /* 47-添加水印UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA462E81D59DF2000EBE27C /* _7_____UITests.m */,
+				7EA462EA1D59DF2000EBE27C /* Info.plist */,
+			);
+			path = "47-添加水印UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA462BF1D59DF2000EBE27C /* 47-添加水印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA462ED1D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印" */;
+			buildPhases = (
+				7EA462BC1D59DF2000EBE27C /* Sources */,
+				7EA462BD1D59DF2000EBE27C /* Frameworks */,
+				7EA462BE1D59DF2000EBE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "47-添加水印";
+			productName = "47-添加水印";
+			productReference = 7EA462C01D59DF2000EBE27C /* 47-添加水印.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EA462D81D59DF2000EBE27C /* 47-添加水印Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA462F01D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印Tests" */;
+			buildPhases = (
+				7EA462D51D59DF2000EBE27C /* Sources */,
+				7EA462D61D59DF2000EBE27C /* Frameworks */,
+				7EA462D71D59DF2000EBE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA462DB1D59DF2000EBE27C /* PBXTargetDependency */,
+			);
+			name = "47-添加水印Tests";
+			productName = "47-添加水印Tests";
+			productReference = 7EA462D91D59DF2000EBE27C /* 47-添加水印Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EA462E31D59DF2000EBE27C /* 47-添加水印UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA462F31D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印UITests" */;
+			buildPhases = (
+				7EA462E01D59DF2000EBE27C /* Sources */,
+				7EA462E11D59DF2000EBE27C /* Frameworks */,
+				7EA462E21D59DF2000EBE27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA462E61D59DF2000EBE27C /* PBXTargetDependency */,
+			);
+			name = "47-添加水印UITests";
+			productName = "47-添加水印UITests";
+			productReference = 7EA462E41D59DF2000EBE27C /* 47-添加水印UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA462B81D59DF2000EBE27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SDD;
+				TargetAttributes = {
+					7EA462BF1D59DF2000EBE27C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7EA462D81D59DF2000EBE27C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7EA462BF1D59DF2000EBE27C;
+					};
+					7EA462E31D59DF2000EBE27C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7EA462BF1D59DF2000EBE27C;
+					};
+				};
+			};
+			buildConfigurationList = 7EA462BB1D59DF2000EBE27C /* Build configuration list for PBXProject "47-添加水印" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA462B71D59DF2000EBE27C;
+			productRefGroup = 7EA462C11D59DF2000EBE27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA462BF1D59DF2000EBE27C /* 47-添加水印 */,
+				7EA462D81D59DF2000EBE27C /* 47-添加水印Tests */,
+				7EA462E31D59DF2000EBE27C /* 47-添加水印UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA462BE1D59DF2000EBE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA462D31D59DF2000EBE27C /* LaunchScreen.storyboard in Resources */,
+				7EA462F71D59E65400EBE27C /* Assets.xcassets in Resources */,
+				7EA462CE1D59DF2000EBE27C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462D71D59DF2000EBE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462E21D59DF2000EBE27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA462BC1D59DF2000EBE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA462CB1D59DF2000EBE27C /* ViewController.m in Sources */,
+				7EA462C81D59DF2000EBE27C /* AppDelegate.m in Sources */,
+				7EA462C51D59DF2000EBE27C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462D51D59DF2000EBE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA462DE1D59DF2000EBE27C /* _7_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA462E01D59DF2000EBE27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA462E91D59DF2000EBE27C /* _7_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EA462DB1D59DF2000EBE27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EA462BF1D59DF2000EBE27C /* 47-添加水印 */;
+			targetProxy = 7EA462DA1D59DF2000EBE27C /* PBXContainerItemProxy */;
+		};
+		7EA462E61D59DF2000EBE27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EA462BF1D59DF2000EBE27C /* 47-添加水印 */;
+			targetProxy = 7EA462E51D59DF2000EBE27C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EA462CC1D59DF2000EBE27C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA462CD1D59DF2000EBE27C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA462D11D59DF2000EBE27C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA462D21D59DF2000EBE27C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA462EB1D59DF2000EBE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EA462EC1D59DF2000EBE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA462EE1D59DF2000EBE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "47-添加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EA462EF1D59DF2000EBE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "47-添加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EA462F11D59DF2000EBE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "47-添加水印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/47-添加水印.app/47-添加水印";
+			};
+			name = Debug;
+		};
+		7EA462F21D59DF2000EBE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "47-添加水印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/47-添加水印.app/47-添加水印";
+			};
+			name = Release;
+		};
+		7EA462F41D59DF2000EBE27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "47-添加水印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "47-添加水印";
+			};
+			name = Debug;
+		};
+		7EA462F51D59DF2000EBE27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "47-添加水印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-7-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "47-添加水印";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA462BB1D59DF2000EBE27C /* Build configuration list for PBXProject "47-添加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA462EB1D59DF2000EBE27C /* Debug */,
+				7EA462EC1D59DF2000EBE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA462ED1D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA462EE1D59DF2000EBE27C /* Debug */,
+				7EA462EF1D59DF2000EBE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EA462F01D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA462F11D59DF2000EBE27C /* Debug */,
+				7EA462F21D59DF2000EBE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EA462F31D59DF2000EBE27C /* Build configuration list for PBXNativeTarget "47-添加水印UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA462F41D59DF2000EBE27C /* Debug */,
+				7EA462F51D59DF2000EBE27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA462B81D59DF2000EBE27C /* Project object */;
+}

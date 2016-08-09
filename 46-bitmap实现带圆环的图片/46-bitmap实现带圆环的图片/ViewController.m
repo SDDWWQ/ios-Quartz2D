@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  45-bitmap图片裁剪
+//  46-bitmap实现带圆环的图片
 //
 //  Created by shadandan on 16/8/9.
 //  Copyright © 2016年 SDD. All rights reserved.
@@ -25,18 +25,17 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    CGFloat margin=10;
     UIImage *image=[UIImage imageNamed:@"h_main_AdgY_1f85000000c6111a"];
-    //开启图片类型的上下文
-    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
+    //上下文大小
+    CGSize ctxSize=CGSizeMake(image.size.width+2*margin,image.size.height+2*margin);
+    UIGraphicsBeginImageContextWithOptions(ctxSize, NO, 0);
     CGContextRef ctx=UIGraphicsGetCurrentContext();
-    CGContextAddArc(ctx, image.size.width*0.5, image.size.height*0.5, image.size.width*0.5, 0, 2*M_PI,1);
-    CGContextClip(ctx);
-    //先把图片画到图片类型的上下文中
-    [image drawAtPoint:CGPointZero];
-    //从当前图片上下文中取图片，实际上还是一个方形的图片，只不过背景是透明的
-    UIImage *newImage=UIGraphicsGetImageFromCurrentImageContext();
-   //关闭图形上下文
-    UIGraphicsEndImageContext();
-    self.imageView.image=newImage;
+    //计算圆心位置
+    CGPoint arcCenter=CGPointMake(ctxSize.width*0.5, ctxSize.height*0.5);
+    //计算圆环半径
+    CGFloat radius=image.size.width+margin*0.5;
+    //画圆环
+    CGContextAddArc(ctx,arcCenter.x , arcCenter.y, radius, 0, 2*M_PI, 1);
 }
 @end

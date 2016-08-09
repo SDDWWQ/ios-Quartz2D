@@ -34,8 +34,21 @@
     //计算圆心位置
     CGPoint arcCenter=CGPointMake(ctxSize.width*0.5, ctxSize.height*0.5);
     //计算圆环半径
-    CGFloat radius=image.size.width+margin*0.5;
+    CGFloat radius=image.size.width*0.5+margin*0.5;
     //画圆环
     CGContextAddArc(ctx,arcCenter.x , arcCenter.y, radius, 0, 2*M_PI, 1);
+    //设置圆的线宽
+    CGContextSetLineWidth(ctx, margin);
+    //渲染
+    CGContextStrokePath(ctx);
+    //裁剪显示区域
+    CGContextAddArc(ctx, arcCenter.x, arcCenter.y, image.size.width*0.5,0, 2*M_PI, 1);
+    CGContextClip(ctx);
+    [image drawInRect:CGRectMake(margin, margin, image.size.width, image.size.height)];
+    image=UIGraphicsGetImageFromCurrentImageContext();
+    //保存到手机相册
+    UIImageWriteToSavedPhotosAlbum(image, NULL, NULL, NULL);
+    //UIGraphicsEndImageContext();
+    
 }
 @end
